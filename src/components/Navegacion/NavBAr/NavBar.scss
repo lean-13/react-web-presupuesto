@@ -3,16 +3,44 @@
 
 .nav__bar--modificacion {
     position: fixed;
-    top: -4px;
-    border-radius: 5px;
+    top: 0;
+    left: 0;
     z-index: 5;
 }
 .nav__bar--size {
-    width: 100%;
-    height: 50px;
-    padding-left: 1%;
-    padding-right: 1%;
+    width: 70px;
+    height: 100%;
 }
 .nav__bar--color {
     background-color: $color1;
+}
+// seccion
+.nav__bar__secciones {
+    display: flex;
+    flex-direction: column;
+}
+// iconos
+.divIconNavbar {
+    // modificacion
+    border-radius: 5px;
+    // size
+    padding: 0px 8px 5px 8px;
+    margin-bottom: 20px;
+    // color
+    background-color: $color2;
+}
+.iconNavbar {
+    // modificacion
+    transform: scale(1);
+    // color
+    color: $color3;
+    
+}
+
+.iconNavbar:hover {
+    transform: scale(0.90);
+    // color
+    background-color: $color2;
+    color: $color1;
+    transition: 0.7s;
 }

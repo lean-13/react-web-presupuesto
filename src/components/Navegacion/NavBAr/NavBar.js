@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import {Navbar, Nav, Container} from "react-bootstrap" 
+import {Navbar, Container} from "react-bootstrap" 
 // icons
-
+import AppsIcon from '@mui/icons-material/Apps';
+import AddBoxIcon from '@mui/icons-material/AddBox';
+import CalculateIcon from '@mui/icons-material/Calculate';
+import ArchiveIcon from '@mui/icons-material/Archive';
 // scss
 import "./NavBar.scss"
 
@@ -10,17 +13,39 @@ function NavBar() {
 
     return (
         <>
-        <Navbar variant="dark" expand="lg" className='nav__bar--modificacion nav__bar--size nav__bar--color'>
+        <Navbar className='nav__bar--modificacion nav__bar--size nav__bar--color'>
           <Container>
-            <Navbar.Brand as={Link} to="/" className='logo'>Web</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link as={Link} to="/">Inicio</Nav.Link>
-                <Nav.Link as={Link} to="/presupuesto">Presupuesto</Nav.Link>
-                <Nav.Link as={Link} to="/calculadora">Calculadora</Nav.Link>
-                <Nav.Link as={Link} to="/historial">Historial</Nav.Link>
-              </Nav>
+              <div className="nav__bar__secciones">
+                <Link as={Link} to="/">
+                  <div className='divIconNavbar'>
+                      <AppsIcon
+                      className='iconNavbar'
+                      />
+                  </div>
+                </Link>
+                <Link as={Link} to="/presupuesto">
+                  <div className='divIconNavbar'> 
+                    <AddBoxIcon
+                      className='iconNavbar'
+                    />
+                  </div>
+                </Link>
+                <Link as={Link} to="/calculadora">
+                <div className='divIconNavbar'>
+                    <CalculateIcon
+                    className='iconNavbar'
+                    />
+                  </div>
+                </Link>
+                <Link as={Link} to="/historial">
+                  <div className='divIconNavbar'>                  
+                    <ArchiveIcon
+                      className='iconNavbar'
+                    />
+                  </div>
+                  </Link>
+              </div>
             </Navbar.Collapse>
           </Container>
         </Navbar>
