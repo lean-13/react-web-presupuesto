@@ -8,6 +8,8 @@ import "../node_modules/bootstrap/dist/js/bootstrap";
 import './App.scss';
 // navbar
 import NavBar from './components/Navegacion/Navbar/NavBar';
+// menu
+import Menu from './components/Navegacion/Menu/Menu';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
             <NavBar/>
           </div>
           <Routes>
+            <Route path="/" element={ <> <Menu/> </> } />
             {/* <Route path="/" element={ <> </> } /> 
             <Route path="/categoria/:categoriaId" element={ <></> } />
             <Route path="/allProductos" element={ <></> } /> 

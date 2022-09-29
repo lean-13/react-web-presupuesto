@@ -1,0 +1,60 @@
+// variables
+@import "../../Variables.scss";
+
+.MenuSection {
+    // modificacion
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap: 30px;
+    // size
+    width: 50%;
+}
+
+
+// iconos
+.MenuLink {
+    // modificacion
+    border-radius: 10px;
+    // size
+    width: 150px;
+    height: 150px;
+    // color
+    background-color: $color2;
+}
+.Icon {
+    // modificacion
+    position: relative;
+    transform: scale(1);
+    // size
+
+    // color
+    color: $color3;
+    
+}
+.MenuLink:hover .Icon {
+    transform: scale(0.90);
+    color: $color1;
+    transition: 0.9s;
+}
+
+.Icon {
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+.MenuText {
+    position: relative;
+    top: 84px;
+    text-align: center;
+
+    p {
+        font-size: 16px;
+        text-decoration: none;
+        color: $color3;
+    }
+}
+.MenuLink:hover .MenuText {
+    color: $color1;
+    transition: 0.9s;
+}
