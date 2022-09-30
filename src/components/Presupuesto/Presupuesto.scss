@@ -1,2 +1,53 @@
 // variables
 @import "../Variables.scss";
+
+.Presupuesto {
+    // modificacion
+    position: fixed;
+    border-radius: 10px;
+    // size
+    top: 10;
+    left: 80px;
+    width: 92%;
+    height: 94%;
+    // color
+    background-color: $color2;
+}
+
+.PresupuestoTitulo {
+    text-align: center;
+    padding-top: 20px;
+    h4 {
+        color: $color3;
+    }
+}
+
+.PresupuestoCreacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+// materiales
+.PresupuestoCreacionMateriales {
+    // size
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+    p {
+        // color
+        color: $color3;
+    }
+}
+
+
+// tiempo
+.PresupuestoCreacionTiempo {
+    // size
+    width: 50%;
+    padding-top: 20px;
+    text-align: center;
+    p {
+        // color
+        color: $color3;
+    }
+}

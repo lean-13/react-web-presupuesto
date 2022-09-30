@@ -12,10 +12,17 @@ function Presupuesto() {
             </div>
             <div className='PresupuestoCreacion'>
                 <div className='PresupuestoCreacionMateriales'>
-
+                    <p>MATERIALES</p>
+                    <div className='ListadoMateriales'>
+                        <div className='AgregarMaterial'>
+                            <div><p>Material</p></div>
+                            <div><p>Precio</p></div>
+                            <button>+</button>
+                        </div>
+                    </div>
                 </div>
                 <div className='PresupuestoCreacionTiempo'>
-
+                    <p>TIEMPO ESTIMADO</p>
                 </div>
             </div>
             <div className='PresupuestoFooter'>
