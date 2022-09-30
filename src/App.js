@@ -10,6 +10,8 @@ import './App.scss';
 import NavBar from './components/Navegacion/Navbar/NavBar';
 // menu
 import Menu from './components/Navegacion/Menu/Menu';
+// presupuesto
+import Presupuesto from './components/Presupuesto/Presupuesto';
 
 function App() {
   return (
@@ -20,10 +22,7 @@ function App() {
           </div>
           <Routes>
             <Route path="/react-web-presupuesto" element={ <> <Menu/> </> } />
-            {/* <Route path="/" element={ <> </> } /> 
-            <Route path="/categoria/:categoriaId" element={ <></> } />
-            <Route path="/allProductos" element={ <></> } /> 
-            <Route path="/detail/:itemId" element={ "l" } /> */}
+            <Route path="/presupuesto" element={ <> <Presupuesto/> </> } />
             {/* error 404 */}
             <Route path="*" element={ <h1>Error 404</h1> } /> 
           </Routes>
