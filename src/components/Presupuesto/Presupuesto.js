@@ -15,8 +15,14 @@ function Presupuesto() {
                     <p>MATERIALES</p>
                     <div className='ListadoMateriales'>
                         <div className='AgregarMaterial'>
-                            <div><p>Material</p></div>
-                            <div><p>Precio</p></div>
+                            <div>
+                                <label for="material">MATERIAL</label>
+	                            <input type="text" name="material" id="material" placeholder="MATERIAL"/>
+                            </div>
+                            <div>
+                                <label for="material">PRECIO</label>
+	                            <input type="text" name="precio" id="precio" placeholder="PRECIO"/>
+                            </div>
                             <button>+</button>
                         </div>
                     </div>
