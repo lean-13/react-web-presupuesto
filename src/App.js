@@ -19,7 +19,7 @@ function App() {
             <NavBar/>
           </div>
           <Routes>
-            <Route path="/" element={ <> <Menu/> </> } />
+            <Route path="/react-web-presupuesto" element={ <> <Menu/> </> } />
             {/* <Route path="/" element={ <> </> } /> 
             <Route path="/categoria/:categoriaId" element={ <></> } />
             <Route path="/allProductos" element={ <></> } /> 

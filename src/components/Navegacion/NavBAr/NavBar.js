@@ -17,7 +17,7 @@ function NavBar() {
           <Container>
             <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
               <div className="nav__bar__secciones">
-                <Link as={Link} to="/">
+                <Link as={Link} to="/react-web-presupuesto">
                   <div className='divIconNavbar'>
                       <AppsIcon
                       className='iconNavbar'
