@@ -18,10 +18,10 @@ function Presupuesto() {
                         <div>
                             <form className='AgregarMaterial'>
                                 <div className='AddMaterial'>
-                                    <input type="text" id='material' placeholder="Agregar Material..."/>
+                                    <input type="text" id='material' placeholder=" Agregar Material..."/>
                                 </div>
                                 <div className='AddPrecio'>
-                                    <input type="text" id='material' placeholder="Precio..."/>
+                                    <input type="text" id='material' placeholder=" Precio..."/>
                                 </div>
                                 <button className='ButtonAdd' id='AddListado'>
                                     <AddIcon

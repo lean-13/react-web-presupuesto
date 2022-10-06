@@ -17,6 +17,7 @@ function Menu() {
                     <div className='DivIcon'>
                         <AddBoxIcon
                             className='Icon'
+                            fontSize="large"
                         />
                     </div>
                     <div className='MenuText'>
@@ -29,6 +30,7 @@ function Menu() {
                     <div className='DivIcon'>
                         <CalculateIcon
                             className='Icon'
+                            fontSize="large"
                         />
                     </div>
                     <div className='MenuText'>
@@ -41,6 +43,7 @@ function Menu() {
                     <div className='DivIcon'>
                         <ArchiveIcon
                             className='Icon'
+                            fontSize="large"
                         />
                     </div>
                     <div className='MenuText'>

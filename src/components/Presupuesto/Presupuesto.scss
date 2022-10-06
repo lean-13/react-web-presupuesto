@@ -52,19 +52,29 @@
 // form
 .AddMaterial {
     input {
+        // modificacion
+        border-radius: 5px;
+        // size
         width: 250px;
+        // color
+        color: $color3;
     }
     
 }
 .AddPrecio {
     input {
+        // modificacion
+        border-radius: 5px;
+        // size
         width: 150px;
+        // color
+        color: $color3;
     }
 }
 // button
 .ButtonAdd {
     // modificacion
-    border: none;
+    border: 0.1px solid $color3;
     border-radius: 10px;
     // size
     width: 40px;
