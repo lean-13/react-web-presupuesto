@@ -34,6 +34,9 @@ function Presupuesto() {
                     <div className='ListadoMateriales'>
 
                     </div>
+                    <div className='TextPresupuestoVacio'>
+                        <p>Su presupuesto se encuentra vacio</p>
+                    </div>
                 </div>
                 <div className='PresupuestoCreacionTiempo'>
                     <p>TIEMPO ESTIMADO</p>
