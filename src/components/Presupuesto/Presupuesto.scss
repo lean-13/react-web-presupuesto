@@ -42,9 +42,45 @@
 // agregar material
 .AgregarMaterial {
     display: flex;
+    // size
+    margin-left: 15%;
+
+    div {
+        margin-right: 10px;
+    }
+}
+// form
+.AddMaterial {
+    input {
+        width: 250px;
+    }
     
-
-
+}
+.AddPrecio {
+    input {
+        width: 150px;
+    }
+}
+// button
+.ButtonAdd {
+    // modificacion
+    border: none;
+    border-radius: 10px;
+    // size
+    width: 40px;
+    height: 40px;
+    // color
+    background-color: $color4;
+}
+.AddIcon {
+    // size
+    padding-bottom: 5px;
+    // color
+    color: $color1;
+}
+.ButtonAdd:hover .AddIcon {
+    color: $color2;
+    transition: 0.7s;
 }
 // tiempo
 .PresupuestoCreacionTiempo {
