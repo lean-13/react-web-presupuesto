@@ -8,7 +8,7 @@ function Calculadora() {
     return (
         <div className='BackCalculadora'>
             <div className='TittleCalculadora'>
-                <p>CALCULADORA</p>
+                <h4>CALCULADORA</h4>
             </div>
             <div className='Calculadora'>
                 <div className='PantCalculadora'>
