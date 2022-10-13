@@ -12,6 +12,8 @@ import NavBar from './components/Navegacion/Navbar/NavBar';
 import Menu from './components/Navegacion/Menu/Menu';
 // presupuesto
 import Presupuesto from './components/Presupuesto/Presupuesto';
+// calculadora
+import Calculadora from './components/Calculadora/Calculadora';
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/react-web-presupuesto" element={ <> <Menu/> </> } />
             <Route path="/presupuesto" element={ <> <Presupuesto/> </> } />
+            <Route path="/calculadora" element={ <> <Calculadora/> </> } />
             {/* error 404 */}
             <Route path="*" element={ <h1>Error 404</h1> } /> 
           </Routes>

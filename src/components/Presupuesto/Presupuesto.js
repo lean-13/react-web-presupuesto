@@ -6,6 +6,11 @@ import './Presupuesto.scss';
 import AddIcon from '@mui/icons-material/Add';
 function Presupuesto() {
 
+    let Iva = 21;
+    let Precio = 0;
+    let PrecioTotal = 0;
+
+
     return (
         <div className='Presupuesto'>
             <div className='PresupuestoTitulo'>

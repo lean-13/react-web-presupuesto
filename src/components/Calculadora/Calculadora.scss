@@ -1,0 +1,71 @@
+// variables
+@import "../Variables.scss";
+
+// calculadora
+.BackCalculadora {
+    // modificacion
+    position: fixed;
+    border-radius: 10px;
+    // size
+    top: 10;
+    left: 80px;
+    width: 92%;
+    height: 94%;
+    padding-top: 20px;
+    // color
+    background-color: $color2;
+}
+// titulo
+.TittleCalculadora {
+    p {
+        // size
+        font-size: 26px;
+        // color
+        color: $color3;
+    }
+}
+// calculadora
+.Calculadora {
+    position: relative;
+    top: 10px;
+    left: 420px;
+}
+// pantalla calculadora
+.PantCalculadora {
+    border: 1px solid $color1;
+    border-radius: 10px;
+    // size
+    width: 30%;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    p {
+        color: $color1;
+    }
+}
+.TeclaCalculadora {
+    padding-left: 6%;
+}
+// botones
+.SeccionTeclaCalculadora {
+    padding-bottom: 10px;
+}
+.ButtonCalculadora {
+    // modificacion
+    border-radius: 10px;
+    // size
+    width: 50px;
+}
+// botones especificos
+.ButtonCalculadoraD {
+    // modificacion
+    border-radius: 10px;
+    // size
+    width: 100px;
+}
+.ButtonCalculadoraColor {
+    // color
+    border: none;
+    background-color: $color3;
+    color: $color2;
+}
